@@ -23,5 +23,3 @@ async def hello(ctx):
     await ctx.send(f"こんにちは {ctx.author.display_name} さん。")
 
 bot.run()
-
-input("何かキーを押して終了")
